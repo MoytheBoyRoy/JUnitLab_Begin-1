@@ -20,9 +20,11 @@ class GiftCardTest {
 	
 	@Test
 	void testGetIssuingStore() {
-		
 		assertEquals("getIssuingStore()", issuingStore, card.getIssuingStore());
 		//Added a comment
 	}
+	
+	@Test
+	void nothingHere() {}
 
 }
