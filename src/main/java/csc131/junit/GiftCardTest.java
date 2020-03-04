@@ -26,5 +26,11 @@ class GiftCardTest {
 	
 	@Test
 	void nothingHere() {}
+	
+	@Test
+	void testDeduct() {
+		assertEquals("Remaining Balance:  90.00", card.deduct(10.00));
+	}
+
 
 }
