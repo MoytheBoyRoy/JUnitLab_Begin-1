@@ -20,8 +20,13 @@ class GiftCardTest {
 	
 	@Test
 	void testGetIssuingStore() {
-		
 		assertEquals("getIssuingStore()", issuingStore, card.getIssuingStore());
 	}
+	
+	@Test
+	void testGetBalance() {	
+		assertEquals("getBalance()", balance, card.getBalance(), 0.001);
+	}
+
 
 }
